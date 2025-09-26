@@ -3,4 +3,4 @@ defmodule Finanzas do
   def balance([head | tail]), do: head + balance(tail)
 end
 
-IO.puts Finanzas.balance([100, -50, 200]) # 220
+IO.puts Finanzas.balance([100, -50, 200])

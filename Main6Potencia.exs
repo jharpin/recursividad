@@ -3,4 +3,4 @@ defmodule Potencia do
   def pow(base, exp), do: base * pow(base, exp - 1)
 end
 
-IO.puts Potencia.pow(2, 5) # 32
+IO.puts Potencia.pow(2, 5) 

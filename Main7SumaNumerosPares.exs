@@ -4,4 +4,4 @@ defmodule Pares do
   def suma([_ | tail]), do: suma(tail)
 end
 
-IO.puts Pares.suma([1, 2, 3, 4, 6, 8]) # 12
+IO.puts Pares.suma([ 2, 3, 4, 6, 8]) 

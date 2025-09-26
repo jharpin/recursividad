@@ -6,4 +6,4 @@ end
 IO.puts Tienda.total([
   %{producto: "Camisa", cantidad: 4},
   %{producto: "Pantalón", cantidad: 2}
-]) # 6
+])

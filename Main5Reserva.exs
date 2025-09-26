@@ -5,5 +5,5 @@ end
 
 IO.puts Hotel.total_dias([
   %{cliente: "Ana", dias: 3},
-  %{cliente: "Luis", dias: 5}
+  %{cliente: "Luis", dias: 10}
 ]) # 8
